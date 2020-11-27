@@ -1,0 +1,27 @@
+{
+	"name": "pudu",
+	"version": "1.0.0",
+	"description": "Tiny static site generator for simple multilingual sites",
+	"homepage": "https://qotoqot.com/pudu/",
+	"author": "Ivan Mir (https://twitter.com/ivmirx)",
+	"license": "Apache-2.0",
+	"repository": "ivmirx/pudu",
+	"keywords": [
+		"pudu",
+		"static",
+		"site",
+		"generator",
+		"multilingual"
+	],
+	"main": "./lib/index.js",
+	"private": true,
+	"dependencies": {
+		"clean-css": "~4.2.3",
+		"file": "~0.2.2",
+		"handlebars": "^4.7.6",
+		"js-yaml": "^3.14.0",
+		"minimatch": "^3.0.4",
+		"recursive-readdir": "~2.2.2",
+		"showdown": "^1.9.1"
+	}
+}
